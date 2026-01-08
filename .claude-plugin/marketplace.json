@@ -1,12 +1,19 @@
 {
-  "name": "Autonomous Claude Queue",
+  "name": "autonomous-claude-queue",
   "description": "Marketplace for the Autonomous Claude Queue plugin",
+  "owner": {
+    "name": "Albert Nahas",
+    "email": "albert@nahas.dev"
+  },
   "plugins": [
     {
       "name": "autonomous-claude-queue",
-      "repository": "https://github.com/albertnahas/autonomous-claude-queue",
       "description": "Autonomous task queue system for Claude Code that enables continuous, unattended task execution with session isolation and safety mechanisms",
-      "version": "1.0.0"
+      "version": "1.0.0",
+      "source": {
+        "type": "github",
+        "repo": "albertnahas/autonomous-claude-queue"
+      }
     }
   ]
 }
