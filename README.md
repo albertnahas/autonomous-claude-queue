@@ -9,7 +9,7 @@ A Claude Code plugin that enables autonomous, continuous task execution through 
 
 The Autonomous Claude Queue transforms Claude Code into an autonomous agent that can work through multiple tasks sequentially without manual intervention. Each session operates independently, allowing multiple autonomous workflows to run simultaneously while maintaining safety through circuit breakers and comprehensive logging.
 
-<video controls src="demo.mov" title="Title"></video>
+![Autonomous Claude Queue Demo](demo.gif)
 
 ### Key Features
 
