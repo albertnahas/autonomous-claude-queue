@@ -1,0 +1,20 @@
+{
+  "name": "autonomous-claude-queue",
+  "version": "1.0.0",
+  "description": "Autonomous task queue system for Claude Code that enables continuous, unattended task execution with session isolation and safety mechanisms",
+  "author": {
+    "name": "Albert Nahas",
+    "email": "albert@nahas.dev"
+  },
+  "homepage": "https://github.com/albertnahas/autonomous-claude-queue",
+  "repository": "https://github.com/albertnahas/autonomous-claude-queue",
+  "license": "MIT",
+  "keywords": [
+    "automation",
+    "task-queue",
+    "autonomous",
+    "workflow",
+    "productivity",
+    "session-management"
+  ]
+}

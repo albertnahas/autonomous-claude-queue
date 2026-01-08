@@ -1,0 +1,18 @@
+{
+  "description": "Autonomous task queue system with Stop hook that enables continuous task execution",
+  "hooks": {
+    "Stop": [
+      {
+        "matcher": "*",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash $CLAUDE_PLUGIN_ROOT/hooks/task-queue.sh",
+            "timeout": 60,
+            "halt_pipeline": true
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+# Claude Code local settings
+.claude/*.local.md
+.claude/task-queue-*
+.claude/settings.local.json
+
+# Task queue state files (user-specific) - only in root directory
+/todo.md
+/todo-in-progress.md
+/todo-completed.md
+/task-queue-debug.log
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+.tmp/
