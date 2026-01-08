@@ -1,0 +1,12 @@
+{
+  "name": "Autonomous Claude Queue",
+  "description": "Marketplace for the Autonomous Claude Queue plugin",
+  "plugins": [
+    {
+      "name": "autonomous-claude-queue",
+      "repository": "https://github.com/albertnahas/autonomous-claude-queue",
+      "description": "Autonomous task queue system for Claude Code that enables continuous, unattended task execution with session isolation and safety mechanisms",
+      "version": "1.0.0"
+    }
+  ]
+}
