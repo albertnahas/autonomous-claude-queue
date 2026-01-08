@@ -22,8 +22,20 @@ The Autonomous Claude Queue transforms Claude Code into an autonomous agent that
 
 ### Installation
 
+**Option 1: Install via Marketplace (Recommended)**
+
 ```bash
-# Install from GitHub
+# Add the marketplace
+/plugin marketplace add albertnahas/autonomous-claude-queue
+
+# Install the plugin
+/plugin install autonomous-claude-queue
+```
+
+**Option 2: Manual Installation**
+
+```bash
+# Clone from GitHub
 git clone https://github.com/albertnahas/autonomous-claude-queue.git
 cd autonomous-claude-queue
 
